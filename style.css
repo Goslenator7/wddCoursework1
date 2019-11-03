@@ -1,0 +1,317 @@
+* {
+	font-family: helvetica;
+}
+
+body {
+    background-image: url('images/background.jpg');
+}
+
+/*                         */                                   
+/* pageTop section styling */
+/*                         */
+
+a {
+    text-decoration: none; 
+}
+
+/* LOGO */
+
+.logo {
+    width: 20%;
+    height: 100px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+    float: left;
+    background-color: rgba(57, 102, 177, 0.3);
+}
+
+.logo img {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: 5px;
+}
+
+.logo img:hover {
+    opacity: 0.8;
+}
+
+/* TITLE */
+
+.title {
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    float: left;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgba(57, 102, 177, 0.3);
+}
+
+.title a {
+    color: rgb(121, 32, 151);
+	font-family: helvetica;
+}
+
+.title a:hover {
+	color: rgba(255, 255, 255,0.8);
+}
+
+/* BASKET BUTTON */
+
+.basket {
+    width: 6.5%;
+    height: 100px;
+    float: left;
+    padding: 10px 5px 10px 10px;
+    background-color: rgba(57, 102, 177, 0.3);
+}
+
+.basketButton {
+    text-align: center;
+}
+
+/* ACCOUNT BUTTON */
+
+.account {
+    width: 6.5%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    border-top-right-radius: 5px;
+    padding: 10px 5px 10px 10px;
+    background-color: rgba(57, 102, 177, 0.3);
+}
+
+.accountButton {
+    text-align: center;
+}
+
+/*                            */                                   
+/* PAGEBOTTOM SECTION STYLING */
+/*                            */
+
+.pageBottom {
+    clear: both;
+}
+
+/* MENU */
+
+.menu {
+    width: 20%;
+    height: 317px;
+    float: left;
+    padding: 10px;
+    font-size: large;
+    background-color: rgba(57, 102, 177, 0.3);
+}
+
+.menu ul {
+    color:white;
+    list-style-type: none;
+}
+
+.menu a {
+    color: rgb(255,255,255);
+}
+
+
+.menu a:hover {
+    color: #e7e7e7;
+}
+
+/* CONTENT */
+
+.content {
+    width: 60%;
+    height: 313px;
+    padding: 10px;
+    border: solid rgba(255, 255, 255,0.3) 2px;
+    border-radius: 5px;
+    float: left;
+    font-size: large;
+    background-image: linear-gradient(rgba(66, 189, 158, 0.5), rgba(168, 113, 131,0.5));
+    /*overflow: scroll;*/
+}
+
+.content h2, h3, p {
+    text-align: center;
+    color: #fff;
+}
+
+.content ol {
+    color: #fff;
+}
+
+/* PRODUCTS */
+
+.productNavContainer {
+    float:left;
+    border: solid rgba(255, 255, 255,0.3) 2px;
+    width: 100%;
+}
+
+.productNavContainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(45, 172, 150,0.3);
+}
+
+.productNavContainer li {
+    float:left;
+    text-align: center;
+    width:25%;
+}
+
+.productNavContainer li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.productNavContainer li a:hover {
+    background-color: rgba(57, 102, 177, 0.3);
+}
+
+.productItems {
+    float: left;
+    width: 100%;
+    height: 90%;
+}
+
+.item1 {
+    float: left;
+    border: solid rgba(255,255,255, 0.3);
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.item2 {
+    float: left;
+    border: solid rgba(255,255,255, 0.3);
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.item3 {
+    float: left;
+    border: solid rgba(255,255,255, 0.3);
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+.item4 {
+    float: left;
+    border: solid rgba(255,255,255, 0.3);
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.item5 {
+    float: left;
+    border: solid rgba(255,255,255, 0.3);
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.item6 {
+    float: left;
+    border: solid rgba(255,255,255, 0.3);
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+
+/* RIGHT SIDE SPACER DIV */
+
+.rightSpacer {
+	width: 13.5%;
+	height: 317px;
+	padding: 10px;
+	border:  rgba(57, 102, 177, 0.3);
+	float: left;
+    background-color: rgba(57, 102, 177, 0.3);
+}
+
+/* FOOTER NAVBAR */
+
+.footer {
+    clear: both;
+}
+
+.backToTop {
+    width: 20%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    font-size: large;
+    background-color: rgba(57, 102, 177, 0.3);
+    border-bottom-left-radius: 5px;
+}
+
+.backToTop a {
+    color: rgb(255,255,255);
+}
+
+.backToTop a:hover {
+    color: #e7e7e7;
+}
+
+.toProducts {
+    width: 60%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    font-size: large;
+    background-color: rgba(57, 102, 177, 0.3);
+}
+
+.toProducts a {
+    color: rgb(255,255,255);
+}
+
+.toProducts a:hover {
+    color: #e7e7e7;
+}
+
+.toContact {
+    width: 13.8%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    font-size: large;
+    background-color: rgba(57, 102, 177, 0.3);
+    border-bottom-right-radius: 5px;
+}
+
+.toContact a {
+    color: rgb(255,255,255);
+}
+
+.toContact a:hover {
+    color: #e7e7e7;
+}
+
+.contactForm {
+    color: #fff;
+}
